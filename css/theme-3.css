@@ -1,0 +1,43 @@
+.spn-navbar,
+.about h1 span,
+.testimonials h1 .spn,
+.price-table span,
+.our-team h1 span,
+.our-team .person h3 span,
+.skills-section h1 span,
+.contact-us h1 span,
+.footer .copy-right span,
+.carousel-caption h1 {
+    color: #E74C3C;
+}
+
+.carousel-indicators .active {
+    background-color: #E74C3C;
+}
+
+.option-box .color-option {
+    border: 3px solid #E74C3C;
+}
+
+.option-box .cog-edit {
+    background-color: #E74C3C;
+}
+
+.testimonials .carousel-indicators li.active {
+    border: 3px solid #E74C3C;
+}
+
+.testimonials span {
+    color: #E74C3C;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+#scroll {
+    background-color: #E74C3C;
+}
+
+#scroll:hover {
+    background-color: #df402e;
+}

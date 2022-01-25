@@ -1,0 +1,151 @@
+/* Start About Us */
+
+.bread-holder {
+    background-color: #f5f5f5;
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #f5f5f5;
+}
+
+.about-us {
+    padding: 0 0 100px;
+}
+
+.about-us h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: -4px;
+    padding: 60px 0;
+}
+
+.about-us .hr-a {
+    width: 50%;
+    height: 1px;
+    background-color: #000;
+    color: blue;
+    position: relative;
+    bottom: 30px;
+    left: 25%;
+}
+
+.about-us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.about-features {
+    padding: 0 0 100px;
+}
+
+.about-features h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.about-features p {
+    padding-bottom: 20px;
+}
+
+.about-ceo {
+    background-color: #EEE;
+    padding-top: 60px;
+}
+
+.about-ceo h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.about-ceo img {
+    width: 300px;
+    height: 300px;
+}
+
+.about-ceo .lead {
+    line-height: 1.7;
+}
+
+.about-ceo .btn-primary {
+    background-color: #333;
+    border-color: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+/* End About Us */
+
+
+/* Start FAQ  */
+
+.faq {
+    padding: 40px 0;
+}
+
+.faq h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: -2px;
+    font-size: 50px;
+}
+
+.faq h1~hr {
+    width: 50%;
+}
+
+.faq .hr-a {
+    width: 40%;
+    height: .5px;
+    background-color: #000;
+    color: blue;
+    position: relative;
+    bottom: 30px;
+    left: 30%;
+}
+
+.faq-question .panel-heading {
+    padding: 20px 15px;
+}
+
+.faq-question .panel-heading a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-question .panel-body {
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    padding: 25px;
+    background-color: #222;
+}
+
+.faq-question .panel-heading a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    color: #333;
+}
+
+.faq-question .panel-heading a.collapsed:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    color: #777;
+}
+
+.faq-question .panel-heading>a:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    color: #333;
+}
+
+
+/* End FAQ  */

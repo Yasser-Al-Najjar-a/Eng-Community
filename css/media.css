@@ -1,0 +1,150 @@
+/*Small Devices => Landscape Phones*/
+
+@media (max-width:576px) {
+    /* Start clients */
+    .clients img {
+        width: 100px;
+        position: relative;
+        left: 18px;
+    }
+    .clients {
+        padding-left: 20px;
+    }
+    /* End clients */
+    /* Start Footer */
+    .footer .img-thumbnail {
+        width: 35%;
+    }
+    .footer .copy-right {
+        font-size: 12px;
+    }
+    .awesome-edit {
+        text-align: center;
+    }
+    /* End Footer */
+    /* Start Navbar */
+    .navbar {
+        min-height: 50px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+    /* End Navbar */
+    /* Start Subscribe */
+    .btn-danger {
+        margin-top: 5px;
+    }
+    /* End Subscribe */
+    /* Start Team info */
+    .team-info .btn-edit {
+        display: block;
+        width: 100%;
+    }
+    /* End Team info */
+    /* Start Testimonials Carouse*/
+    .testimonials .carousel-indicators li {
+        width: 65px;
+        height: 65px;
+    }
+    .testimonials .carousel-indicators li.active {
+        width: 65px;
+        height: 65px;
+    }
+    /* End Testimonials Carousel */
+    .our-team h1 {
+        font-size: 27px;
+    }
+    .carosel-info .lead {
+        height: 190px;
+    }
+}
+
+
+/* Tablets Screen*/
+
+@media (min-width:577px)and (max-width:767px) {
+    /* Start clients */
+    .clients {
+        padding-left: 10px;
+    }
+    .clients img {
+        position: relative;
+        left: 45px;
+    }
+    /* End clients */
+    /* Start Footer */
+    .footer .img-thumbnail {
+        width: 235px;
+    }
+    .awesome-edit {
+        text-align: center;
+    }
+    /* End Footer */
+    /* Start Navbar */
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+    /* End Navbar */
+    /* Start Subscribe */
+    .btn-danger {
+        margin-top: 5px;
+    }
+    /* End Subscribe */
+    /* Start Testimonials Carouse*/
+    .testimonials .carousel-indicators li {
+        width: 65px;
+        height: 65px;
+    }
+    .testimonials .carousel-indicators li.active {
+        width: 65px;
+        height: 65px;
+    }
+    /* End Testimonials Carousel */
+    .our-team h1 {
+        font-size: 27px;
+    }
+    .carosel-info .lead {
+        height: 190px;
+    }
+}
+
+
+/* Small Screen */
+
+@media (min-width:767px) and (max-width:991px) {
+    /* Start clients */
+    .clients {
+        padding-left: 16px;
+    }
+    .clients img {
+        position: relative;
+        left: 35px;
+    }
+    /* End clients */
+}
+
+
+/* Medium Screen  */
+
+@media (min-width:992px) and (max-width:1199px) {
+    /* Start clients */
+    .clients {
+        padding-left: 10px;
+    }
+    /* End clients */
+}
+
+
+/* Large Screen  */
+
+@media (min-width:120px) {}
